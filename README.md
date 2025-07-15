@@ -172,6 +172,9 @@
 ## <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="30" /> Son Blog Yazılarım
 
 <!-- BLOG-POST-LIST:START -->
+- [🤖 Building an AI-Powered GitHub README Generator with MCP Protocol](https://dev.to/mustafakemal0146/building-an-ai-powered-github-readme-generator-with-mcp-protocol-3ma0)
+- [🤖 Building an AI-Powered GitHub README Generator with MCP Protocol](https://dev.to/mustafakemal0146/building-an-ai-powered-github-readme-generator-with-mcp-protocol-52gk)
+- [I Got Tired of Complicated Setups, So I Built a GUI for 🍓Raspberry Pi 5](https://dev.to/mustafakemal0146/i-got-tired-of-complicated-setups-so-i-built-a-gui-for-raspberry-pi-5-2lei)
 <!-- BLOG-POST-LIST:END -->
 
 ---
