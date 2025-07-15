@@ -1,9 +1,13 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Merhaba%2C+Ben+Mustafa+Kemal+%C3%87%C4%B1ng%C4%B1l+%F0%9F%91%8B;AI+%26+Cybersecurity+Developer;Music+Producer+%26+Code+Creator;Bilgiyi+Payla%C5%9F%C4%B1yor%2C+Gelece%C4%9Fi+%C5%9Eekillendiriyorum" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Merhaba%2C+Ben+Mustafa+Kemal+%C3%87%C4%B1ng%C4%B1l+%F0%9F%91%8B;AI+%26+Cybersecurity+Developer;Music+Producer+%26+Code+Creator;Bilgiyi+Payla%C5%9F%C4%B1yor%2C+Gelece%C4%9Fi+%C5%9Eekillendiriyorum" alt="Typing SVG" />
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+</div>
+
+<div align="right">
+  <img src="https://media.giphy.com/media/WiM5K1e9MtEic/giphy.gif" width="120" alt="Mr Robot">
 </div>
 
 <h2 align="center">🚀 Yapay Zeka, Siber Güvenlik ve Teknoloji Tutkunu</h2>
@@ -93,6 +97,20 @@
 >
 > [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/CyberAI-MiniGame)
 
+### 🎶 AI Müzik Kontrolü
+> **Computer Vision Music Control** - Kafa hareketleriyle sistem genelinde medya kontrolü
+>
+> `Python` `OpenCV` `AI` `MediaPipe`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/head-movment-music-control)
+
+### 🧠 KemugGPT
+> **AI Research Tool** - Yapay zekanın sınırlarını etik çerçevede keşfetmek için geliştirilen araç
+>
+> `AI` `Research` `Ethics` `Security`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/kemugpt)
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
 </div>
@@ -132,6 +150,10 @@
 
 <div align="center">
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/MustafaKemal0146/MustafaKemal0146/output/github-contribution-grid-snake-dark.svg" />
+</div>
+
+<div align="left">
+  <img src="https://media.giphy.com/media/WiM5K1e9MtEic/giphy.gif" width="100" alt="Mr Robot">
 </div>
 
 ---
