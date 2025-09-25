@@ -1,40 +1,30 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=BEU+Veri+Yap%C4%B1lar%C4%B1+%C3%96dev+Teslim+Rehberi+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Merhaba%2C+Ben+Mustafa+Kemal+%C3%87%C4%B1ng%C4%B1l+%F0%9F%91%8B;AI+%26+Cybersecurity+Developer+%F0%9F%A4%96;Music+Producer+%26+Code+Creator+%F0%9F%8E%B5;Bilgiyi+Payla%C5%9F%C4%B1yor%2C+Gelece%C4%9Fi+%C5%9Eekillendiriyor+%F0%9F%9A%80;Hack+The+Planet+%F0%9F%8C%8D" alt="Typing SVG" />
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-<h2 align="center">🚀 GitHub Üzerinden Ödev Teslim Süreci</h2>
+<h2 align="center">🚀 Yapay Zeka, Siber Güvenlik ve Teknoloji Tutkunu</h2>
 
 <div align="center">
-Bu rehber, Veri Yapıları dersi kapsamında verilen ödevlerin GitHub organizasyonu üzerinden nasıl teslim edileceğini adım adım açıklamaktadır. Lütfen tüm adımları dikkatlice takip edin.
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 
 ---
 
-### 💡 GitHub'a Yeni Başlayanlar İçin Önemli Not
-Eğer Git ve GitHub komutlarına (`clone`, `add`, `commit`, `push`) yabancıysanız, sürece başlamadan önce aşağıdaki ücretsiz BTK Akademi eğitimini tamamlamanız şiddetle tavsiye edilir. Bu eğitim, tüm adımları daha kolay anlamanıza yardımcı olacaktır.
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> Benimle Bağlantı Kur
 
 <div align="center">
-  <a href="https://www.btkakademi.gov.tr/portal/course/versiyon-kontrolleri-git-ve-github-19439" target="_blank">
-    <img src="https://img.shields.io/badge/BTK_Akademi-Git_ve_GitHub_Eğitimi-00BFFF?style=for-the-badge&logo=git&logoColor=white" alt="BTK Akademi Git ve GitHub Eğitimi"/>
-  </a>
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&animation=pulse)](https://www.linkedin.com/in/mustafakemal0146)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MustafaKemal0146)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mustafakemal0146)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mustafakemalcingil)
+[![Website](https://img.shields.io/badge/Website-1A1A1A?style=for-the-badge&logo=About.me&logoColor=white)](https://mustafakemalcingil.site/)
+
 </div>
-
----
-
-### 1️⃣ Adım 1: Organizasyon İçinde Kendi Deponuzu Oluşturun
-
-Her öğrenci, dönem boyunca tüm ödevlerini barındıracak olan kendi deposunu doğrudan organizasyon içinde oluşturacaktır.
-
-1.  GitHub hesabınıza giriş yapın ve organizasyonun ana sayfasına gidin: **[beu-veri-yapilari-2024-2025](https://github.com/orgs/beu-veri-yapilari-2024-2025/)**
-2.  **"Repositories"** sekmesine tıklayın.
-3.  Sağ tarafta bulunan yeşil renkli **"New"** butonuna tıklayın.
-4.  **Repository name** (Depo adı) olarak **`adiniz-soyadiniz`** formatında, Türkçe karakter kullanmadan ve küçük harflerle isminizi yazın. (Örnek: `ahmet-yilmaz`)
-5.  Repository'yi **"Public"** olarak ayarlayın.
-6.  **"Create repository"** butonuna tıklayarak deponuzu oluşturun.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
@@ -42,53 +32,199 @@ Her öğrenci, dönem boyunca tüm ödevlerini barındıracak olan kendi deposun
 
 ---
 
-### 2️⃣ Adım 2: Deponuzu Bilgisayarınıza Klonlayın (Clone)
+## <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="30" /> Teknoloji Yığını ve Yeteneklerim
 
-Oluşturduğunuz depoyu, ödevlerinizi eklemek için bilgisayarınıza indirmeniz gerekmektedir. Bu işlem sadece **bir kere** yapılır.
+<div align="center">
 
-1.  Oluşturduğunuz deponun ana sayfasında, yeşil **"<> Code"** butonuna tıklayın.
-2.  Açılan pencerede **HTTPS** sekmesinin seçili olduğundan emin olun ve yandaki linki kopyalayın.
-3.  Bilgisayarınızda terminali (Git Bash, CMD veya PowerShell) açın ve ödevlerinizin durmasını istediğiniz bir klasöre gidin.
-4.  Aşağıdaki komutu yapıştırın ve çalıştırın:
-    ```shell
-    git clone KOPYALADIGINIZ_URL
-    ```
+### 💻 Programlama Dilleri
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,c" />
+
+### 🎨 Frontend Geliştirme  
+<img src="https://skillicons.dev/icons?i=react,tailwind,html,css,nextjs" />
+
+### ⚙️ Backend ve Veritabanı
+<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgresql,firebase,mongodb" />
+
+### 🤖 AI/ML ve Araçlar
+<img src="https://skillicons.dev/icons?i=opencv,tensorflow,git,linux,docker" />
+
+### 🛡️ Siber Güvenlik ve Diğerleri
+<img src="https://skillicons.dev/icons?i=kali,bash,vim,vscode,figma" />
+
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+</div>
 
 ---
 
-### 3️⃣ Adım 3: Ödev Dosyalarını Haftalık Olarak Yükleyin (Add, Commit, Push)
+## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="30" /> Öne Çıkan Projelerim
 
-Her hafta yeni ödevinizi teslim etmek için bu adımları tekrar edeceksiniz. **Her ödev kendi haftasının klasöründe olmalıdır (`hafta1`, `hafta2`, vb.).**
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+</div>
 
-1.  **Dosya Gezgini'ni (File Explorer)** kullanarak bilgisayarınıza klonladığınız `adiniz-soyadiniz` klasörünü açın.
-2.  Bu klasörün içinde, o haftanın ödevi için **yeni bir klasör oluşturun**. (Örneğin, sağ tıklayıp `Yeni > Klasör` seçeneği ile `hafta2` adında bir klasör açabilirsiniz.)
-3.  Tamamladığınız ödev dosyalarını bu yeni oluşturduğunuz klasörün (`hafta2`) içine kopyalayın.
-4.  Şimdi, `adiniz-soyadiniz` klasörünün içindeyken terminali açın.
-    > **İpucu:** Windows'ta klasörün en üstündeki adres çubuğuna `cmd` yazıp `Enter`'a basarak terminali doğrudan o klasörde başlatabilirsiniz.
-5.  Aşağıdaki komutları sırasıyla çalıştırarak o haftanın ödevini GitHub'a yükleyin:
+<table>
+<tr>
+<td width="50%">
 
-    ```shell
-    # 1. Adım: Tüm yeni dosyaları ve değişiklikleri ekle
-    git add .
+### 🤖 MCP GitHub README Generator
+> **AI-Powered README Creator** - GitHub projelerinizi analiz ederek profesyonel README.md dosyaları oluşturan akıllı araç
+> 
+> `AI` `GitHub` `Automation` `Multi-LLM Support`
+> 
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/github-readme-generator-mcp)
 
-    # 2. Adım: Değişiklikleri o haftaya özel bir mesajla paketle
-    # Mesajı her hafta güncellemeyi unutmayın!
-    git commit -m "Hafta 2 odevleri eklendi"
+</td>
+<td width="50%">
 
-    # 3. Adım: Paketi GitHub'a gönder
-    git push
-    ```
-Bu kadar! Her hafta sadece bu adımları tekrarlayarak yeni ödevlerinizi kendi deponuza yükleyebilirsiniz. Deponuzun son hali aşağıdaki gibi görünmelidir:
+### 🍓 Raspberry Pi 5 Headless Setup GUI  
+> **Cross-Platform Setup Wizard** - Raspberry Pi 5 için monitörsüz kurulum sağlayan modern masaüstü uygulaması
+>
+> `Python` `GUI` `IoT` `Automation`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/Raspberry-Pi-5-Headless-Setup-GUI)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🚀 TenFastCoderFinger
+> **Coding Speed Trainer** - Programcılar için özel tasarlanmış yazma pratik uygulaması
+>
+> `React` `TypeScript` `Gaming` `Education`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/10fastcoderfinger)
+
+</td>
+<td width="50%">
+
+### 🛡️ Siber Kahraman Standı 2025
+> **Cybersecurity Education Game** - Çocuklara siber güvenlik bilinci kazandıran interaktif oyun
+>
+> `Python` `Education` `Cybersecurity` `Gaming`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/CyberAI-MiniGame)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🎶 AI Müzik Kontrolü
+> **Computer Vision Music Control** - Kafa hareketleriyle sistem genelinde medya kontrolü
+>
+> `Python` `OpenCV` `AI` `MediaPipe`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/head-movment-music-control)
+
+</td>
+<td width="50%">
+
+### 🧠 KemugGPT
+> **AI Research Tool** - Yapay zekanın sınırlarını etik çerçevede keşfetmek için geliştirilen araç
+>
+> `AI` `Research` `Ethics` `Security`
+>
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/kemugpt)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+</div>
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/216122049-276f2c8c-bcce-42e8-9a48-4db79ce71bac.png" width="30" /> GitHub Analitiği
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MustafaKemal0146&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MustafaKemal0146&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MustafaKemal0146&theme=tokyonight" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MustafaKemal0146&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" />
+</div>
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> Kodlama Aktivitesi
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MustafaKemal0146&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area=true&hide_border=true" />
+</div>
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="30" /> Son Blog Yazılarım
+
+<!-- BLOG-POST-LIST:START -->
+- [🤖 Building an AI-Powered GitHub README Generator with MCP Protocol](https://dev.to/mustafakemal0146/building-an-ai-powered-github-readme-generator-with-mcp-protocol-3ma0)
+- [I Got Tired of Complicated Setups, So I Built a GUI for 🍓Raspberry Pi 5](https://dev.to/mustafakemal0146/i-got-tired-of-complicated-setups-so-i-built-a-gui-for-raspberry-pi-5-2lei)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="30" /> Katkı Yılanı
+
+<div align="center">
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/MustafaKemal0146/MustafaKemal0146/output/github-contribution-grid-snake-dark.svg" />
+</div>
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="30" /> Rastgele Geliştirici Sözü
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
+
+---
+
+## <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7c08.gif" width="30" /> Eğlenceli Gerçekler
+
+<div align="center">
+
+```javascript
+const mustafaKemal = {
+    pronouns: "he" | "him",
+    code: ["Python", "JavaScript", "TypeScript", "Java"],
+    askMeAbout: ["AI", "cybersecurity", "music production", "tech"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Next.js"],
+            css: ["Tailwind", "Bootstrap"]
+        },
+        backEnd: {
+            js: ["Node", "Express"],
+            python: ["FastAPI", "Django"]
+        },
+        databases: ["PostgreSQL", "MongoDB", "Supabase"],
+        misc: ["Docker", "Linux", "OpenCV", "MediaPipe"]
+    },
+    currentFocus: "Building AI-powered applications",
+    funFact: "I can debug code and produce music at the same time! 🎵🐛"
+};
 ```
-/
-├── hafta1/
-│   ├── odev1.py
-│   └── ...
-├── hafta2/
-│   ├── odev2.cpp
-│   ���── ...
-└── ...
-```
+
+</div>
+
+<div align="left">
+  <img src="https://media.giphy.com/media/WiM5K1e9MtEic/giphy.gif" width="100" alt="Mr Robot">
+</div>
 
 ---
 
@@ -98,7 +234,20 @@ Bu kadar! Her hafta sadece bu adımları tekrarlayarak yeni ödevlerinizi kendi 
 
 <div align="center">
   
-### Başarılar! ✨
-Ödevlerinizi zamanında ve doğru şekilde yüklemeyi unutmayın.
+### <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="25" /> "Kod yazmak sanat, AI ile çalışmak ise geleceği şekillendirmektir"
 
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=MustafaKemal0146&color=blueviolet&style=for-the-badge&label=Profile+Views" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7c08.gif" width="100">
+  
+  **Made with ❤️ by Mustafa Kemal Çıngıl**
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7c08.gif" width="100">
 </div>
