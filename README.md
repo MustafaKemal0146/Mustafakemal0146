@@ -53,12 +53,12 @@
 <tr>
 <td width="50%">
 
-### ⚔️ SETH
+### ⚔️ fetih
 > Terminalde çalışan **otonom AI ajan** — siber güvenlik, CTF çözümü ve kod analizi için. 12 AI sağlayıcı, 60+ araç, Türkçe arayüz, kalıcı bellek, multi-agent koordinatör.
 >
 > `TypeScript` `AI Agent` `Cybersecurity` `CTF` `CLI`
 >
-> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/seth) [![Website](https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge&logo=About.me)](https://seth.mustafakemalcingil.site)
+> [![Repo](https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/MustafaKemal0146/fetih) [![Website](https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge&logo=About.me)](https://fetih.mustafakemalcingil.site)
 
 </td>
 <td width="50%">
@@ -194,7 +194,7 @@ const mustafaKemal = {
     code: ["Python", "JavaScript", "TypeScript", "Java"],
     askMeAbout: ["AI Agents", "MCP", "Cybersecurity", "Music Production"],
     technologies: {
-        aiAgents:  ["SETH", "C.U.T.E", "Codchestra"],
+        aiAgents:  ["fetih", "C.U.T.E", "Codchestra"],
         mcp:       ["turkey-power-mcp", "kandilli-mcp", "trdizin-mcp"],
         frontEnd:  ["React", "Next.js", "Tailwind"],
         backEnd:   ["Node", "FastAPI", "Express"],
