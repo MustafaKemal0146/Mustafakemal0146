@@ -12,7 +12,7 @@ Yazdığım araçların çoğu Türkçe arayüzlü ve kullanıcının verisini k
 
 #### Son projeler
 
-<a href="https://github.com/MustafaKemal0146/eda-hukuk-public"><img src="assets/eda-hukuk.svg" width="100%" alt="E.D.A. Hukuk: avukatlar için kaynaklı hukuki araştırma ve taslak çalışma alanı"></a>
+<a href="https://github.com/MustafaKemal0146/eda-hukuk-public"><img src="assets/eda-hukuk.svg" width="100%" alt="E.D.A. Hukuk: kaynaklı hukuki araştırma ve dilekçe taslağı"></a>
 
 <a href="https://github.com/MustafaKemal0146/nehir"><img src="assets/nehir.svg" width="100%" alt="nehir"></a>
 <p align="right"><a href="https://github.com/MustafaKemal0146/nehir/releases/latest"><img src="https://img.shields.io/github/v/release/MustafaKemal0146/nehir?style=flat-square&label=s%C3%BCr%C3%BCm&color=0e7490" alt="release"></a></p>
