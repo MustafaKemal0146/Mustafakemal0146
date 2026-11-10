@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="E.D.A. Hukuk: avukatlar için kaynaklı hukuki araştırma ve taslak çalışma alanı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1220"/>
+      <stop offset=".6" stop-color="#0e1424"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d82f2"/>
+      <stop offset="1" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#7f97ff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#7f97ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#182036" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="880" height="300" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+    .serif { font-family: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif; font-style: italic; }
+    .tag { fill: #151c33; stroke: #2c3760; }
+    .flow { stroke: #a5b4fc; stroke-width: 1.6; fill: none; stroke-dasharray: 3 26; stroke-linecap: round; animation: flow 2.4s linear infinite; }
+    .f2 { animation-delay: -1.2s; }
+    @keyframes flow { from { stroke-dashoffset: 29; } to { stroke-dashoffset: 0; } }
+    .blink { animation: blink 3s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { fill: #1c2545; stroke: #4d5b8f; } 50% { fill: #2a3566; stroke: #a5b4fc; } }
+    .lock { animation: lock 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes lock { 0%, 100% { transform: scale(1); opacity: .88; } 50% { transform: scale(1.05); opacity: 1; } }
+    .halo { animation: halo 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes halo { 0%, 100% { opacity: .55; transform: scale(.94); } 50% { opacity: .95; transform: scale(1.05); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="300" fill="url(#bg)"/>
+    <rect width="880" height="300" fill="url(#grid)"/>
+    <ellipse class="halo" cx="710" cy="152" rx="250" ry="175" fill="url(#glow)"/>
+
+    <!-- sol: künye -->
+    <text x="32" y="42" class="mono" font-size="11.5" fill="#8ea0ff" letter-spacing="1.2">01 · HUKUK · NEXT.JS + TYPESCRIPT</text>
+
+    <text x="32" y="84" class="sans" font-size="28" font-weight="800" fill="#f6f8ff" letter-spacing="-.6">E.D.A. <tspan class="serif" font-size="34" font-weight="400" letter-spacing="0" fill="#c7d2fe">Hukuk</tspan></text>
+    <rect x="238" y="62" width="54" height="22" rx="11" fill="#1b2444" stroke="#3d4b80"/>
+    <text x="265" y="77" text-anchor="middle" class="mono" font-size="10" fill="#a5b4fc">YENİ</text>
+
+    <text x="32" y="109" class="sans" font-size="14" fill="#9fabca">Avukatlar için kaynaklı hukuki araştırma ve taslak çalışma alanı</text>
+
+    <text class="sans" font-size="13.5" fill="#8b97b3">
+      <tspan x="32" y="139">Soruyu yazarsınız; sistem kanun maddesini ve kararları resmî</tspan>
+      <tspan x="32" y="159">kaynaklarda arar, yanıtı kaynaklarıyla birlikte verir.</tspan>
+    </text>
+
+    <g class="mono" font-size="10.5" fill="#b9c5ff">
+      <rect class="tag" x="32" y="180" width="80" height="24" rx="6"/><text x="72" y="196" text-anchor="middle">Next.js 16</text>
+      <rect class="tag" x="120" y="180" width="84" height="24" rx="6"/><text x="162" y="196" text-anchor="middle">TypeScript</text>
+      <rect class="tag" x="212" y="180" width="88" height="24" rx="6"/><text x="256" y="196" text-anchor="middle">PostgreSQL</text>
+      <rect class="tag" x="308" y="180" width="108" height="24" rx="6"/><text x="362" y="196" text-anchor="middle">Künye Kilidi</text>
+    </g>
+
+    <line x1="32" y1="224" x2="460" y2="224" stroke="#1d2740"/>
+
+    <rect x="32" y="240" width="172" height="34" rx="17" fill="url(#accent)"/>
+    <text x="118" y="262" text-anchor="middle" class="sans" font-size="12.5" font-weight="700" fill="#10152a">Projeyi incele →</text>
+    <text x="220" y="262" class="sans" font-size="11" fill="#6f7c9d">portföy projesi · kaynak görünür</text>
+
+    <!-- sağ: kaynak zinciri -->
+    <rect x="488" y="52" width="360" height="218" rx="14" fill="#0f1526" stroke="#232d4a"/>
+    <text x="508" y="78" class="mono" font-size="10.5" fill="#8ea0ff" letter-spacing="1">KÜNYE KİLİDİ</text>
+    <text x="828" y="78" text-anchor="end" class="mono" font-size="9.5" fill="#5d6a8d">3 ADIM</text>
+    <line x1="488" y1="90" x2="848" y2="90" stroke="#1c2540"/>
+
+    <!-- 1: model -->
+    <rect x="508" y="100" width="320" height="36" rx="9" fill="#141b2e" stroke="#2b3658"/>
+    <text x="522" y="116" class="sans" font-size="12" font-weight="600" fill="#c3cbe4">yapay zekâ</text>
+    <text x="522" y="129" class="sans" font-size="9.5" fill="#6f7c9d">yalnız etiket yazar</text>
+    <rect class="blink" x="786" y="106" width="28" height="24" rx="6" stroke-width="1"/>
+    <text x="800" y="122" text-anchor="middle" class="mono" font-size="10.5" fill="#c7d2fe">[K1]</text>
+
+    <path class="flow"    d="M668 136 v20"/>
+    <path class="flow f2" d="M668 136 v20"/>
+    <path d="M664 155 L668 160 L672 155" fill="none" stroke="#6d7ea8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 2: kayıt -->
+    <rect x="508" y="160" width="320" height="36" rx="9" fill="#141b2e" stroke="#2b3658"/>
+    <text x="522" y="176" class="sans" font-size="12" font-weight="600" fill="#c3cbe4">kayıt</text>
+    <text x="522" y="189" class="sans" font-size="9.5" fill="#6f7c9d">daire · esas · karar · tarih</text>
+    <text x="814" y="182" text-anchor="end" class="mono" font-size="9.5" fill="#7f8fbf">E. 2024/1234</text>
+
+    <path class="flow"    d="M668 196 v20"/>
+    <path class="flow f2" d="M668 196 v20"/>
+    <path d="M664 215 L668 220 L672 215" fill="none" stroke="#6d7ea8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 3: doğrulama -->
+    <rect x="508" y="220" width="320" height="38" rx="9" fill="#10211f" stroke="#24573f"/>
+    <text x="522" y="237" class="sans" font-size="12" font-weight="600" fill="#b7e6cd">resmî kaynak</text>
+    <text x="522" y="250" class="sans" font-size="9.5" fill="#5f8f7a">kaynakla karşılaştırılır</text>
+    <g class="lock">
+      <rect x="726" y="228" width="90" height="22" rx="11" fill="#0b2a22" stroke="#1f6b52"/>
+      <text x="771" y="243" text-anchor="middle" class="mono" font-size="10" fill="#6ee7b7">✓ doğrulandı</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="879" height="299" rx="16" fill="none" stroke="#232d4a"/>
+</svg>

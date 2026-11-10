@@ -12,16 +12,18 @@ Yazdığım araçların çoğu Türkçe arayüzlü ve kullanıcının verisini k
 
 #### Son projeler
 
-<a href="https://github.com/MustafaKemal0146/CUTE"><img src="assets/cute.svg" width="100%" alt="CUTE"></a>
+<a href="https://github.com/MustafaKemal0146/eda-hukuk-public"><img src="assets/eda-hukuk.svg" width="100%" alt="E.D.A. Hukuk: avukatlar için kaynaklı hukuki araştırma ve taslak çalışma alanı"></a>
 
 <a href="https://github.com/MustafaKemal0146/nehir"><img src="assets/nehir.svg" width="100%" alt="nehir"></a>
 <p align="right"><a href="https://github.com/MustafaKemal0146/nehir/releases/latest"><img src="https://img.shields.io/github/v/release/MustafaKemal0146/nehir?style=flat-square&label=s%C3%BCr%C3%BCm&color=0e7490" alt="release"></a></p>
 
 <a href="https://github.com/MustafaKemal0146/joe"><img src="assets/joe.svg" width="100%" alt="joe"></a>
 
-#### MCP sunucuları
+<a href="https://github.com/MustafaKemal0146/barney"><img src="assets/barney.svg" width="100%" alt="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı"></a>
 
-<img src="assets/mcp.svg" width="100%" alt="MCP sunucuları">
+<a href="https://github.com/MustafaKemal0146/CUTE"><img src="assets/cute.svg" width="100%" alt="CUTE"></a>
+
+<a href="https://github.com/MustafaKemal0146?tab=repositories&q=mcp"><img src="assets/mcp.svg" width="100%" alt="MCP sunucuları"></a>
 
 <p align="center">
   <a href="https://github.com/MustafaKemal0146/kandilli-mcp">kandilli-mcp</a> ·
@@ -29,10 +31,6 @@ Yazdığım araçların çoğu Türkçe arayüzlü ve kullanıcının verisini k
   <a href="https://github.com/MustafaKemal0146/turkey-power-mcp">turkey-power-mcp</a> ·
   <a href="https://github.com/MustafaKemal0146/trdizin-mcp">trdizin-mcp</a>
 </p>
-
-#### Yazışma asistanı
-
-<a href="https://github.com/MustafaKemal0146/barney"><img src="assets/barney.svg" width="100%" alt="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı"></a>
 
 #### Diğer çalışmalar
 
