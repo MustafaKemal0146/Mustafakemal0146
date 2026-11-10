@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-label="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#e8c547" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e8c547" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="me" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b7cff"/><stop offset="1" stop-color="#4361ee"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="880" height="320" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+    .tag { fill: #121a3a; stroke: #2a3670; }
+    .panel { fill: #0e1430; stroke: #1f2a5c; }
+    .lbl { fill: #8a94c2; font-size: 11px; }
+    .track { fill: #1a2350; }
+    .bar { fill: #e8c547; transform-box: fill-box; transform-origin: left center; animation: grow 9s cubic-bezier(.2,.7,.2,1) infinite; }
+    .b2 { animation-delay: .25s; } .b3 { animation-delay: .5s; } .b4 { animation-delay: .75s; }
+    @keyframes grow { 0% { transform: scaleX(0); } 14%,94% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+    .wire { stroke: #2a3670; stroke-width: 1.4; fill: none; }
+    .flow { stroke: #f5dc7a; stroke-width: 2; stroke-linecap: round; fill: none; stroke-dasharray: 5 60; animation: flow 1.8s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 65; } to { stroke-dashoffset: 0; } }
+    .them { fill: #1a2248; }
+    .bub { transform-box: fill-box; transform-origin: right bottom; animation: pop 9s cubic-bezier(.2,.8,.2,1) infinite; }
+    .m1 { animation-name: pop1; } .m2 { animation-name: pop2; } .m3 { animation-name: pop3; }
+    @keyframes pop1 { 0%,25% { opacity: 0; transform: translateY(8px) scale(.9); } 29%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
+    @keyframes pop2 { 0%,41% { opacity: 0; transform: translateY(8px) scale(.9); } 45%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
+    @keyframes pop3 { 0%,57% { opacity: 0; transform: translateY(8px) scale(.9); } 61%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
+    .in { animation: inb 9s ease-out infinite; }
+    @keyframes inb { 0%,3% { opacity: 0; transform: translateY(6px); } 7%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; } }
+    .typing { opacity: 0; animation: typ 9s steps(1) infinite; }
+    @keyframes typ { 0%,11% { opacity: 0; } 12%,25% { opacity: 1; } 26%,100% { opacity: 0; } }
+    .dot { fill: #c7d0f5; animation: dot 1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .d2 { animation-delay: .15s; } .d3 { animation-delay: .3s; }
+    @keyframes dot { 0%,100% { transform: translateY(0); opacity: .45; } 50% { transform: translateY(-3px); opacity: 1; } }
+    .halo { animation: halo 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes halo { 0%,100% { transform: scale(.9); opacity: .7; } 50% { transform: scale(1.12); opacity: 1; } }
+    .ok { animation: ok 9s steps(1) infinite; }
+    @keyframes ok { 0%,66% { opacity: 0; } 67%,93% { opacity: 1; } 94%,100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .typing { display: none; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="880" height="320" fill="url(#bg)"/>
+    <circle class="halo" cx="500" cy="160" r="150" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="none" stroke="#1f2a5c"/>
+
+  <!-- sol: tanım -->
+  <text x="32" y="44" class="mono" font-size="12" fill="#c9a93a">04 · GO + REACT + CHROME UZANTISI</text>
+  <text x="32" y="80" class="sans" font-size="28" font-weight="800" fill="#f3f5ff">Barney<tspan fill="#e8c547">.</tspan></text>
+  <text x="140" y="80" class="sans" font-size="15" font-style="italic" fill="#6f7bb0">Senin gibi yazar.</text>
+  <text class="sans" font-size="14" fill="#aab3da">
+    <tspan x="32" y="110">WhatsApp Web'de yazma biçimini öğrenir: kaç mesaj</tspan>
+    <tspan x="32" y="130">attığın, uzunluk, harf, noktalama, emoji, cevap hızı.</tspan>
+    <tspan x="32" y="150">Model yalnızca ne söyleneceğini yazar; nasıl yazılacağını</tspan>
+    <tspan x="32" y="170">stil kartı belirler ve kod denetler.</tspan>
+  </text>
+
+  <circle cx="38" cy="196" r="4.5" fill="#e8c547"/>
+  <text x="50" y="200" class="sans" font-size="12" fill="#aab3da">Art arda kısa mesajlar <tspan fill="#66709e">· tek uzun cevap yerine senin ritmin</tspan></text>
+  <circle cx="38" cy="216" r="4.5" fill="#5b7cff"/>
+  <text x="50" y="220" class="sans" font-size="12" fill="#aab3da">Korumalı otomatik gönderim <tspan fill="#66709e">· onay, sessiz saat, hassas konu</tspan></text>
+  <circle cx="38" cy="236" r="4.5" fill="#34d399"/>
+  <text x="50" y="240" class="sans" font-size="12" fill="#aab3da">Tamamen yerel <tspan fill="#66709e">· kişiler ve geçmiş bu bilgisayarda</tspan></text>
+
+  <g class="mono" font-size="11" fill="#f0d877">
+    <rect class="tag" x="32"  y="262" width="36"  height="22" rx="6"/><text x="50"  y="277" text-anchor="middle">Go</text>
+    <rect class="tag" x="74"  y="262" width="56"  height="22" rx="6"/><text x="102" y="277" text-anchor="middle">React</text>
+    <rect class="tag" x="136" y="262" width="92"  height="22" rx="6"/><text x="182" y="277" text-anchor="middle">Chrome MV3</text>
+    <rect class="tag" x="234" y="262" width="86"  height="22" rx="6"/><text x="277" y="277" text-anchor="middle">127.0.0.1</text>
+    <rect class="tag" x="326" y="262" width="80"  height="22" rx="6"/><text x="366" y="277" text-anchor="middle">tek ikili</text>
+  </g>
+
+  <!-- orta: stil kartı -->
+  <g transform="translate(442,84)">
+    <rect class="panel" width="150" height="152" rx="12"/>
+    <text x="14" y="24" class="mono" font-size="11" fill="#e8c547">STİL KARTI</text>
+    <g class="sans">
+      <text class="lbl" x="14" y="46">art arda mesaj</text>
+      <rect class="track" x="14" y="52" width="122" height="6" rx="3"/><rect class="bar"    x="14" y="52" width="96"  height="6" rx="3"/>
+      <text class="lbl" x="14" y="74">küçük harf</text>
+      <rect class="track" x="14" y="80" width="122" height="6" rx="3"/><rect class="bar b2" x="14" y="80" width="112" height="6" rx="3"/>
+      <text class="lbl" x="14" y="102">noktalama</text>
+      <rect class="track" x="14" y="108" width="122" height="6" rx="3"/><rect class="bar b3" x="14" y="108" width="30"  height="6" rx="3"/>
+      <text class="lbl" x="14" y="130">emoji</text>
+      <rect class="track" x="14" y="136" width="122" height="6" rx="3"/><rect class="bar b4" x="14" y="136" width="54"  height="6" rx="3"/>
+    </g>
+  </g>
+  <path class="wire" d="M592 160 L622 160"/>
+  <path class="flow" d="M592 160 L622 160"/>
+  <path d="M618 155 L625 160 L618 165" fill="none" stroke="#e8c547" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- sağ: sohbet -->
+  <g transform="translate(632,40)">
+    <rect class="panel" width="216" height="240" rx="14"/>
+    <circle cx="22" cy="22" r="9" fill="#1f2a5c"/><rect x="38" y="17" width="70" height="10" rx="5" fill="#1f2a5c"/>
+    <line x1="0" y1="42" x2="216" y2="42" stroke="#1f2a5c"/>
+
+    <g class="in">
+      <rect class="them" x="12" y="54" width="150" height="30" rx="12"/>
+      <text x="24" y="74" class="sans" font-size="12.5" fill="#d7dcf5">akşam geliyor musun</text>
+    </g>
+
+    <g class="typing">
+      <rect x="150" y="96" width="54" height="26" rx="13" fill="#27357a"/>
+      <circle class="dot"    cx="166" cy="109" r="3"/>
+      <circle class="dot d2" cx="177" cy="109" r="3"/>
+      <circle class="dot d3" cx="188" cy="109" r="3"/>
+    </g>
+
+    <g class="bub m1">
+      <rect x="136" y="96" width="68" height="28" rx="12" fill="url(#me)"/>
+      <text x="170" y="115" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">gelirim</text>
+    </g>
+    <g class="bub m2">
+      <rect x="82" y="130" width="122" height="28" rx="12" fill="url(#me)"/>
+      <text x="143" y="149" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">bi işim var önce</text>
+    </g>
+    <g class="bub m3">
+      <rect x="92" y="164" width="112" height="28" rx="12" fill="url(#me)"/>
+      <text x="148" y="183" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">8 gibi oradayım</text>
+    </g>
+
+    <g class="ok mono" font-size="10.5">
+      <rect x="62" y="206" width="142" height="22" rx="11" fill="#0b2a22" stroke="#1d6b55"/>
+      <text x="133" y="221" text-anchor="middle" fill="#6ee7b7">✓ stil denetimi geçti</text>
+    </g>
+  </g>
+</svg>

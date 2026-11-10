@@ -30,6 +30,10 @@ Yazdığım araçların çoğu Türkçe arayüzlü ve kullanıcının verisini k
   <a href="https://github.com/MustafaKemal0146/trdizin-mcp">trdizin-mcp</a>
 </p>
 
+#### Yazışma asistanı
+
+<a href="https://github.com/MustafaKemal0146/barney"><img src="assets/barney.svg" width="100%" alt="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı"></a>
+
 #### Diğer çalışmalar
 
 - **[n8n-automations](https://github.com/MustafaKemal0146/n8n-automations)**: iş, yapay zekâ ve verimlilik için hazır n8n iş akışları
