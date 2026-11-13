@@ -1,57 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="MCP sunucuları: kandilli-mcp, usom-mcp, turkey-power-mcp ve trdizin-mcp bir AI asistana Türkiye kaynaklı veri sağlar">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a1620"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.4"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="MCP sunucuları: kandilli-mcp, usom-mcp, turkey-power-mcp ve trdizin-mcp bir AI asistana Türkiye verisini bağlar">
   <style>
     .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
-    .srv { fill: #0f1d29; stroke: #1e3a4f; }
-    .w { stroke: #1e3a4f; stroke-width: 1.5; fill: none; }
-    .flow { stroke: #7dd3fc; stroke-width: 2; fill: none; stroke-dasharray: 5 200; animation: flow 2.8s linear infinite; }
-    .f2 { animation-delay: -.7s; } .f3 { animation-delay: -1.4s; } .f4 { animation-delay: -2.1s; }
-    @keyframes flow { from { stroke-dashoffset: 205; } to { stroke-dashoffset: 0; } }
-    .name { fill: #e0f2fe; font-size: 14px; font-weight: 700; }
-    .src { fill: #6b8ba3; font-size: 12px; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .tag { fill: rgba(255,255,255,.07); stroke: rgba(255,255,255,.38); }
+    .wire { stroke-dasharray: 5 5; animation: wire 1.8s linear infinite; }
+    @keyframes wire { to { stroke-dashoffset: -20; } }
+    .seis { animation: seis 2.4s ease-in-out infinite; }
+    @keyframes seis { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
   </style>
-  <rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="url(#bg)" stroke="#16293a"/>
-  <text x="32" y="38" class="mono" font-size="12" fill="#38bdf8">06 · MCP SUNUCULARI · Türkiye verisini AI asistanlara bağlar</text>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#21447f"/><stop offset="1" stop-color="#16305d"/></linearGradient>
+    <pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0 H0 V20" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="1"/></pattern>
+    <pattern id="g2" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0 H0 V100" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="1"/></pattern>
+    <clipPath id="card"><rect width="880" height="300" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="880" height="300" fill="url(#paper)"/>
+    <rect width="880" height="300" fill="url(#g1)"/>
+    <rect width="880" height="300" fill="url(#g2)"/>
+    <rect x="12" y="12" width="856" height="276" rx="8" fill="none" stroke="#ffffff" stroke-opacity=".28"/>
 
-  <path class="w" d="M272 90 C340 90 360 135 392 135"/>
-  <path class="w" d="M272 180 C340 180 360 135 392 135"/>
-  <path class="w" d="M608 90 C540 90 520 135 488 135"/>
-  <path class="w" d="M608 180 C540 180 520 135 488 135"/>
-  <path class="flow"    d="M272 90 C340 90 360 135 392 135"/>
-  <path class="flow f2" d="M272 180 C340 180 360 135 392 135"/>
-  <path class="flow f3" d="M608 90 C540 90 520 135 488 135"/>
-  <path class="flow f4" d="M608 180 C540 180 520 135 488 135"/>
+    <text x="36" y="44" class="mono" font-size="11" fill="#9fc0f5" letter-spacing="1.4">06 · MCP SUNUCULARI · PYTHON + JS</text>
+    <text x="36" y="94" class="serif" font-size="30" font-weight="700" fill="#f4f8ff" letter-spacing="-.5">MCP <tspan font-size="42" font-style="italic" font-weight="400" fill="#ffd166">sunucuları</tspan></text>
+    <line x1="36" y1="112" x2="196" y2="112" stroke="#7ea2e0" stroke-width="1.4"/>
+    <circle cx="204" cy="112" r="2.4" fill="#ffd166"/>
+    <text x="36" y="140" class="sans" font-size="13.5" fill="#dbe7ff">Türkiye’nin açık verisini AI asistanlara bağlayan dört sunucu</text>
+    <text class="sans" font-size="12.5" fill="#b9cdf0">
+      <tspan x="36" y="166">Deprem, zararlı bağlantı, elektrik kesintisi ve akademik yayın</tspan>
+      <tspan x="36" y="184">verisi; Claude ve diğer MCP istemcileri doğrudan sorabilir.</tspan>
+    </text>
+    <text x="36" y="210" class="serif" font-size="13" font-style="italic" fill="#ffd166">“Veri kaynağa sorulur, modele ezberletilmez.”</text>
+    <g class="mono" font-size="10" fill="#dbe7ff">
+      <rect class="tag" x="36" y="226" width="58" height="22" rx="4"/><text x="65.0" y="241" text-anchor="middle">Python</text>
+      <rect class="tag" x="100" y="226" width="82" height="22" rx="4"/><text x="141.0" y="241" text-anchor="middle">JavaScript</text>
+      <rect class="tag" x="188" y="226" width="98" height="22" rx="4"/><text x="237.0" y="241" text-anchor="middle">stdio · HTTP</text>
+      <rect class="tag" x="292" y="226" width="74" height="22" rx="4"/><text x="329.0" y="241" text-anchor="middle">4 sunucu</text>
+    </g>
+    <rect x="36" y="258" width="176" height="30" rx="15" fill="#ffd166"/>
+    <text x="124.0" y="278" text-anchor="middle" class="sans" font-size="12" font-weight="700" fill="#14294f">Sunucuları incele →</text>
+    <text x="224" y="278" class="sans" font-size="10.5" fill="#9fc0f5">kandilli · usom · turkey-power · trdizin</text>
 
-  <circle cx="440" cy="135" r="70" fill="url(#glow)"/>
-  <rect x="392" y="105" width="96" height="60" rx="12" fill="#0c2233" stroke="#38bdf8" stroke-width="1.5"/>
-  <text x="440" y="132" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e0f2fe">AI asistan</text>
-  <text x="440" y="150" text-anchor="middle" class="mono" font-size="10" fill="#7dd3fc">stdio · HTTP</text>
+    <g fill="none" stroke="#cfe0ff" stroke-width="1.2">
+      <path class="wire" d="M556 98 V144 H622"/>
+      <path class="wire" d="M556 190 V152 H622"/>
+      <path class="wire" d="M770 98 V144 H712"/>
+      <path class="wire" d="M770 190 V152 H712"/>
+    </g>
+    <g fill="#ffd166"><circle cx="556" cy="98" r="2.6"/><circle cx="556" cy="190" r="2.6"/><circle cx="770" cy="98" r="2.6"/><circle cx="770" cy="190" r="2.6"/></g>
+    <rect x="476" y="44" width="158" height="54" rx="6" fill="#17315f" stroke="#e8f0ff" stroke-width="1.1"/>
+      <text x="488" y="66" class="mono" font-size="11" font-weight="700" fill="#f4f8ff">kandilli-mcp</text>
+      <text x="488" y="84" class="sans" font-size="8.6" fill="#b9cdf0">Kandilli · deprem verisi</text>
+      <g transform="translate(598 52)" fill="none" stroke="#ffd166" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path class="seis" d="M0 10 h5 l3 -8 l4 15 l4 -11 l3 6 h7"/></g>
+    <rect x="690" y="44" width="158" height="54" rx="6" fill="#17315f" stroke="#e8f0ff" stroke-width="1.1"/>
+      <text x="702" y="66" class="mono" font-size="11" font-weight="700" fill="#f4f8ff">turkey-power-mcp</text>
+      <text x="702" y="84" class="sans" font-size="8.6" fill="#b9cdf0">Dağıtım şirketleri · kesinti</text>
+      <g transform="translate(812 52)" fill="none" stroke="#ffd166" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 0 l-9 12 h7 l-3 10 l10 -13 h-7 z"/></g>
+    <rect x="476" y="190" width="158" height="54" rx="6" fill="#17315f" stroke="#e8f0ff" stroke-width="1.1"/>
+      <text x="488" y="212" class="mono" font-size="11" font-weight="700" fill="#f4f8ff">usom-mcp</text>
+      <text x="488" y="230" class="sans" font-size="8.6" fill="#b9cdf0">USOM · zararlı URL / IP</text>
+      <g transform="translate(598 198)" fill="none" stroke="#ffd166" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 1 l10 4 v6 c0 6 -4 9 -10 11 c-6 -2 -10 -5 -10 -11 v-6 z"/><path d="M8.5 11 l3.4 3.4 l6 -6.4"/></g>
+    <rect x="690" y="190" width="158" height="54" rx="6" fill="#17315f" stroke="#e8f0ff" stroke-width="1.1"/>
+      <text x="702" y="212" class="mono" font-size="11" font-weight="700" fill="#f4f8ff">trdizin-mcp</text>
+      <text x="702" y="230" class="sans" font-size="8.6" fill="#b9cdf0">TR Dizin · akademik yayın</text>
+      <g transform="translate(812 198)" fill="none" stroke="#ffd166" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4 c-3 -2 -7 -2 -11 -1 v15 c4 -1 8 -1 11 1 c3 -2 7 -2 11 -1 v-15 c-4 -1 -8 -1 -11 1 z M13 4 v15"/></g>
 
-  <g class="sans">
-    <rect class="srv" x="32" y="62" width="240" height="56" rx="10"/>
-    <text x="50" y="86" class="mono name">kandilli-mcp</text>
-    <text x="50" y="105" class="src">Kandilli Rasathanesi · deprem verisi</text>
+    <rect x="622" y="126" width="90" height="44" rx="8" fill="#f4f8ff"/>
+    <text x="667" y="145" text-anchor="middle" class="sans" font-size="11.5" font-weight="700" fill="#14294f">AI asistan</text>
+    <text x="667" y="160" text-anchor="middle" class="mono" font-size="8.5" fill="#3f5f9c">stdio · HTTP</text>
 
-    <rect class="srv" x="32" y="152" width="240" height="56" rx="10"/>
-    <text x="50" y="176" class="mono name">usom-mcp</text>
-    <text x="50" y="195" class="src">USOM · zararlı URL / domain / IP</text>
-
-    <rect class="srv" x="608" y="62" width="240" height="56" rx="10"/>
-    <text x="626" y="86" class="mono name">turkey-power-mcp</text>
-    <text x="626" y="105" class="src">Elektrik dağıtım şirketleri · kesinti</text>
-
-    <rect class="srv" x="608" y="152" width="240" height="56" rx="10"/>
-    <text x="626" y="176" class="mono name">trdizin-mcp</text>
-    <text x="626" y="195" class="src">TÜBİTAK TR Dizin · akademik yayın</text>
+    <g stroke="#9fc0f5" stroke-width="1" fill="none">
+      <path d="M476 258 H848 M476 254 v8 M848 254 v8"/>
+    </g>
+    <rect x="632" y="251" width="70" height="14" fill="#193566"/>
+    <text x="667" y="261.5" text-anchor="middle" class="mono" font-size="8" fill="#9fc0f5">4 × MCP</text>
+    <text x="848" y="279" text-anchor="end" class="mono" font-size="7.5" fill="#7ea2e0" letter-spacing="1">PAFTA 06 · TÜRKİYE VERİSİ · ÇİZEN: MKÇ</text>
   </g>
+  <rect x="0.5" y="0.5" width="879" height="299" rx="16" fill="none" stroke="#3b5f9f"/>
 </svg>

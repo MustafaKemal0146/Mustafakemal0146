@@ -1,174 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" role="img" aria-label="Mustafa Kemal Çıngıl: yapay zekâ ajanları, MCP sunucuları ve Linux araçları">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070b1a"/>
-      <stop offset=".55" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <linearGradient id="name" x1="-1" y1="0" x2="0" y2="0">
-      <stop offset="0" stop-color="#e6edf3"/>
-      <stop offset=".35" stop-color="#a5b4fc"/>
-      <stop offset=".5" stop-color="#f0abfc"/>
-      <stop offset=".65" stop-color="#7dd3fc"/>
-      <stop offset="1" stop-color="#e6edf3"/>
-      <animate attributeName="x1" values="-1;1" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;2" dur="7s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#818cf8" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#818cf8"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#090d1c"/><stop offset="1" stop-color="#090d1c" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <radialGradient id="core" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#a5b4fc" stop-opacity=".7"/>
-      <stop offset=".6" stop-color="#818cf8" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="a1" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#6366f1" stop-opacity=".42"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="a2" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".3"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="a3" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#d946ef" stop-opacity=".22"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#151c33" stroke-width="1"/>
-    </pattern>
-    <clipPath id="card"><rect width="880" height="330" rx="18"/></clipPath>
-    <clipPath id="tick"><rect x="0" y="286" width="880" height="44"/></clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" role="img" aria-label="Mustafa Kemal Çıngıl: bilgisayar mühendisi; yapay zekâ ajanları, MCP sunucuları ve Linux araçları">
   <style>
     .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
-    .drift1 { animation: d1 14s ease-in-out infinite alternate; }
-    .drift2 { animation: d2 18s ease-in-out infinite alternate; }
-    .drift3 { animation: d3 16s ease-in-out infinite alternate; }
-    @keyframes d1 { from { transform: translate(0,0); } to { transform: translate(70px,26px); } }
-    @keyframes d2 { from { transform: translate(0,0); } to { transform: translate(-90px,-20px); } }
-    @keyframes d3 { from { transform: translate(0,0); } to { transform: translate(40px,-34px); } }
-    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .caret { animation: blink 1.1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
-    .rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
-    .r2 { animation-delay: .15s; } .r3 { animation-delay: .35s; } .r4 { animation-delay: .55s; } .r5 { animation-delay: .75s; }
-    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-    .role { animation: role 9s ease-in-out infinite both; }
-    .ro2 { opacity: 0; animation-delay: 3s; } .ro3 { opacity: 0; animation-delay: 6s; }
-    @keyframes role { 0% { opacity: 0; transform: translateY(8px); } 4%,29% { opacity: 1; transform: none; } 33.3%,100% { opacity: 0; transform: translateY(-8px); } }
-    .ring { fill: none; stroke: #2b3558; stroke-width: 1; transform-origin: 690px 146px; }
-    .ringA { stroke-dasharray: 2 9; animation: spin 40s linear infinite; }
-    .ringB { stroke-dasharray: 14 10; stroke: #334178; animation: spin 26s linear infinite reverse; }
-    .ringC { stroke-dasharray: 1 6; animation: spin 60s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .orb { transform-origin: 690px 146px; animation: spin 12s linear infinite; }
-    .orb2 { animation-duration: 19s; animation-direction: reverse; }
-    .edge { stroke: #263055; stroke-width: 1.2; fill: none; }
-    .flow { stroke: #c7d2fe; stroke-width: 2; stroke-linecap: round; fill: none; stroke-dasharray: 5 130; animation: flow 3s linear infinite; }
-    .f2 { animation-delay: -.5s; } .f3 { animation-delay: -1s; } .f4 { animation-delay: -1.5s; } .f5 { animation-delay: -2s; } .f6 { animation-delay: -2.5s; }
-    @keyframes flow { from { stroke-dashoffset: 135; } to { stroke-dashoffset: 0; } }
-    .pulse { transform-origin: 690px 146px; animation: pulse 3.4s ease-in-out infinite; }
-    @keyframes pulse { 0%,100% { opacity: .6; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.12); } }
-    .node rect { fill: #0c1226; stroke: #2f3a66; }
-    .node text { fill: #cbd5e1; font-size: 12px; }
-    .lit { animation: lit 6s ease-in-out infinite; }
-    .l2 { animation-delay: 1s; } .l3 { animation-delay: 2s; } .l4 { animation-delay: 3s; } .l5 { animation-delay: 4s; } .l6 { animation-delay: 5s; }
-    @keyframes lit { 0%,14%,100% { stroke: #2f3a66; } 5%,9% { stroke: #a5b4fc; } }
-    .scan { animation: scan 6s ease-in-out infinite; }
-    @keyframes scan { 0% { transform: translateX(-320px); } 100% { transform: translateX(880px); } }
-    .marq { animation: marq 38s linear infinite; }
-    @keyframes marq { from { transform: translateX(0); } to { transform: translateX(-1340px); } }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ro2, .ro3 { display: none; } }
   </style>
-
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#d9d5c9"/></pattern>
+    <radialGradient id="fade" cx=".78" cy=".42" r=".6"><stop offset=".2" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <mask id="m"><rect width="880" height="280" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="880" height="280" rx="16"/></clipPath>
+  </defs>
   <g clip-path="url(#card)">
-    <rect width="880" height="330" fill="url(#bg)"/>
-    <rect width="880" height="330" fill="url(#grid)"/>
-    <ellipse class="drift1" cx="150" cy="60" rx="300" ry="170" fill="url(#a1)"/>
-    <ellipse class="drift2" cx="760" cy="250" rx="320" ry="180" fill="url(#a2)"/>
-    <ellipse class="drift3" cx="520" cy="30" rx="240" ry="130" fill="url(#a3)"/>
+    <rect width="880" height="280" fill="#faf9f5"/>
+    <rect width="880" height="280" fill="url(#dots)" mask="url(#m)"/>
 
-    <!-- sol: kimlik -->
-    <g class="rise">
-      <rect x="44" y="40" width="252" height="28" rx="14" fill="#0c1226" stroke="#232c4f"/>
-      <circle cx="60" cy="54" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
-      <text x="74" y="58.5" class="mono" font-size="12" fill="#7c89b0">~/mustafakemal0146 <tspan fill="#a5b4fc">$</tspan> whoami<tspan class="cursor" fill="#a5b4fc"> ▍</tspan></text>
+    <circle cx="40" cy="43" r="3.5" fill="#d97757"/><circle cx="40" cy="43" r="7" fill="#d97757" opacity=".16"/>
+    <text x="54" y="47" class="mono" font-size="11" fill="#6b6a64" letter-spacing=".4">Bilgisayar Mühendisliği · Bitlis Eren Üniversitesi</text>
+
+    <text x="34" y="112" class="sans" font-size="44" font-weight="700" fill="#141413" letter-spacing="-1.8">Mustafa Kemal Çıngıl</text>
+    <text x="35" y="154" class="serif" font-size="31" font-style="italic" fill="#b5583a">Bilgisayar mühendisi.</text>
+    <text x="36" y="190" class="sans" font-size="14" fill="#3d3d3a">Yapay zekâ ajanları, MCP sunucuları ve Linux araçları yazıyorum.</text>
+    <text x="36" y="211" class="sans" font-size="13" fill="#6b6a64">Araçlarım Türkçe arayüzlü; veri kullanıcının kendi makinesinde kalır.</text>
+
+    <line x1="36" y1="230" x2="844" y2="230" stroke="#e6e3da"/>
+    <text x="36" y="252" class="mono" font-size="10" fill="#8a8880" letter-spacing="1.2">SON PROJELER</text>
+    <text x="152" y="252" class="mono" font-size="11" fill="#3d3d3a">E.D.A. Hukuk</text><circle cx="253" cy="248" r="1.6" fill="#d97757"/><text x="264" y="252" class="mono" font-size="11" fill="#3d3d3a">nehir</text><circle cx="317" cy="248" r="1.6" fill="#d97757"/><text x="328" y="252" class="mono" font-size="11" fill="#3d3d3a">joe</text><circle cx="367" cy="248" r="1.6" fill="#d97757"/><text x="378" y="252" class="mono" font-size="11" fill="#3d3d3a">Barney</text><circle cx="437" cy="248" r="1.6" fill="#d97757"/><text x="448" y="252" class="mono" font-size="11" fill="#3d3d3a">CUTE</text><circle cx="495" cy="248" r="1.6" fill="#d97757"/><text x="506" y="252" class="mono" font-size="11" fill="#3d3d3a">MCP sunucuları</text>
+
+    <g transform="rotate(-2 724 126)">
+      <rect x="612" y="50" width="236" height="160" rx="14" fill="#141413" opacity=".16"/>
+      <rect x="606" y="42" width="236" height="160" rx="14" fill="#1a1a18"/>
+      <circle cx="624" cy="60" r="4.2" fill="#ff5f57"/><circle cx="638" cy="60" r="4.2" fill="#febc2e"/><circle cx="652" cy="60" r="4.2" fill="#28c840"/>
+      <text x="668" y="63.5" class="mono" font-size="9.5" fill="#8a8880">mustafa.ts</text>
+      <line x1="606" y1="76" x2="842" y2="76" stroke="#2c2c29"/>
+      <text class="mono" font-size="11" fill="#e8e6dc" xml:space="preserve">
+        <tspan x="622" y="100"><tspan fill="#d97757">const</tspan> mustafa = {</tspan>
+        <tspan x="622" y="119">  odak: [<tspan fill="#b9c99a">"ajanlar"</tspan>, <tspan fill="#b9c99a">"MCP"</tspan>],</tspan>
+        <tspan x="622" y="138">  diller: [<tspan fill="#b9c99a">"Go"</tspan>, <tspan fill="#b9c99a">"Rust"</tspan>, <tspan fill="#b9c99a">"TS"</tspan>],</tspan>
+        <tspan x="622" y="157">  veri: <tspan fill="#b9c99a">"yerelde"</tspan>,</tspan>
+        <tspan x="622" y="176">};</tspan>
+      </text>
+      <rect class="caret" x="643" y="166" width="6.5" height="12" fill="#d97757"/>
     </g>
-    <text x="42" y="128" class="sans rise r2" font-size="46" font-weight="800" letter-spacing="-1.2" fill="url(#name)">Mustafa Kemal Çıngıl</text>
-    <rect class="rise r3" x="44" y="144" width="150" height="3" rx="1.5" fill="url(#line)"/>
-
-    <g class="rise r3">
-      <text x="44" y="182" class="sans" font-size="17" fill="#94a3b8">Geliştiriyorum:</text>
-      <g class="sans" font-size="17" font-weight="700">
-        <text class="role"     x="170" y="182" fill="#c7d2fe">yapay zekâ ajanları</text>
-        <text class="role ro2" x="170" y="182" fill="#bae6fd">MCP sunucuları</text>
-        <text class="role ro3" x="170" y="182" fill="#bbf7d0">Linux araçları</text>
-      </g>
-    </g>
-    <text x="44" y="208" class="sans rise r4" font-size="14.5" fill="#6b7899">Açık kaynak · Türkçe · veri kullanıcının makinesinde kalır.</text>
-
-    <g class="mono rise r5" font-size="12">
-      <rect x="44" y="230" width="112" height="28" rx="14" fill="#1e1b4b" stroke="#4338ca"/>
-      <text x="100" y="248" text-anchor="middle" fill="#c7d2fe">AI ajanları</text>
-      <rect x="164" y="230" width="62" height="28" rx="14" fill="#082f49" stroke="#0369a1"/>
-      <text x="195" y="248" text-anchor="middle" fill="#bae6fd">MCP</text>
-      <rect x="234" y="230" width="128" height="28" rx="14" fill="#052e16" stroke="#15803d"/>
-      <text x="298" y="248" text-anchor="middle" fill="#bbf7d0">yerel-öncelikli</text>
-      <rect x="370" y="230" width="94" height="28" rx="14" fill="#3b0764" stroke="#7e22ce"/>
-      <text x="417" y="248" text-anchor="middle" fill="#e9d5ff">çok ajanlı</text>
-    </g>
-
-    <!-- sağ: yörünge -->
-    <g>
-      <circle class="ring ringC" cx="690" cy="146" r="118"/>
-      <circle class="ring ringB" cx="690" cy="146" r="86"/>
-      <circle class="ring ringA" cx="690" cy="146" r="56"/>
-      <g class="orb"><circle cx="690" cy="60" r="3.2" fill="#a5b4fc"/></g>
-      <g class="orb orb2"><circle cx="808" cy="146" r="2.6" fill="#7dd3fc"/></g>
-
-      <path class="edge" d="M690 146 L584 76"/><path class="edge" d="M690 146 L800 76"/>
-      <path class="edge" d="M690 146 L566 146"/><path class="edge" d="M690 146 L818 146"/>
-      <path class="edge" d="M690 146 L584 216"/><path class="edge" d="M690 146 L800 216"/>
-
-      <path class="flow"    d="M584 76 L690 146"/>
-      <path class="flow f2" d="M690 146 L800 76"/>
-      <path class="flow f3" d="M566 146 L690 146"/>
-      <path class="flow f4" d="M690 146 L818 146"/>
-      <path class="flow f5" d="M584 216 L690 146"/>
-      <path class="flow f6" d="M690 146 L800 216"/>
-
-      <circle class="pulse" cx="690" cy="146" r="62" fill="url(#core)"/>
-      <circle cx="690" cy="146" r="31" fill="#161a44" stroke="#a5b4fc" stroke-width="1.6"/>
-      <text x="690" y="151" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#eef2ff">LLM</text>
-
-      <g class="node sans">
-        <rect class="lit"    x="530" y="61"  width="108" height="30" rx="9"/><text x="584" y="81"  text-anchor="middle">Claude Code</text>
-        <rect class="lit l2" x="766" y="61"  width="68"  height="30" rx="9"/><text x="800" y="81"  text-anchor="middle">MCP</text>
-        <rect class="lit l3" x="786" y="131" width="72"  height="30" rx="9"/><text x="822" y="151" text-anchor="middle">Araçlar</text>
-        <rect class="lit l4" x="752" y="201" width="96"  height="30" rx="9"/><text x="800" y="221" text-anchor="middle">Yerel veri</text>
-        <rect class="lit l5" x="530" y="201" width="108" height="30" rx="9"/><text x="584" y="221" text-anchor="middle">Açık modeller</text>
-        <rect class="lit l6" x="524" y="131" width="74"  height="30" rx="9"/><text x="561" y="151" text-anchor="middle">Ajanlar</text>
-      </g>
-    </g>
-
-    <!-- alt: kayan proje şeridi -->
-    <rect x="0" y="286" width="880" height="44" fill="#090d1c" opacity=".86"/>
-    <line x1="0" y1="286.5" x2="880" y2="286.5" stroke="#1b2340"/>
-    <rect class="scan" x="0" y="285.5" width="320" height="2" fill="url(#line)"/>
-    <g clip-path="url(#tick)">
-      <g class="marq mono" font-size="12.5" fill="#7c89b0">
-        <text y="313" xml:space="preserve"><tspan x="24" fill="#c4b5fd">CUTE</tspan><tspan dx="10">çok ajanlı konsey</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#67e8f9">nehir</tspan><tspan dx="10">paralel indirme</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#fcd34d">joe</tspan><tspan dx="10">yerel veri analizi</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#e8c547">barney</tspan><tspan dx="10">senin gibi yazar</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#7dd3fc">kandilli-mcp</tspan><tspan dx="14" fill="#7dd3fc">usom-mcp</tspan><tspan dx="14" fill="#7dd3fc">turkey-power-mcp</tspan><tspan dx="14" fill="#7dd3fc">trdizin-mcp</tspan><tspan dx="22" fill="#39456e">◆</tspan></text>
-        <text y="313" xml:space="preserve"><tspan x="1364" fill="#c4b5fd">CUTE</tspan><tspan dx="10">çok ajanlı konsey</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#67e8f9">nehir</tspan><tspan dx="10">paralel indirme</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#fcd34d">joe</tspan><tspan dx="10">yerel veri analizi</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#e8c547">barney</tspan><tspan dx="10">senin gibi yazar</tspan><tspan dx="22" fill="#39456e">◆</tspan><tspan dx="22" fill="#7dd3fc">kandilli-mcp</tspan><tspan dx="14" fill="#7dd3fc">usom-mcp</tspan><tspan dx="14" fill="#7dd3fc">turkey-power-mcp</tspan><tspan dx="14" fill="#7dd3fc">trdizin-mcp</tspan><tspan dx="22" fill="#39456e">◆</tspan></text>
-      </g>
-    </g>
-    <rect x="0" y="287" width="70" height="43" fill="url(#fadeL)"/>
-    <rect x="810" y="287" width="70" height="43" fill="url(#fadeR)"/>
   </g>
-  <rect x="0.5" y="0.5" width="879" height="329" rx="18" fill="none" stroke="#1c2442"/>
+  <rect x="0.5" y="0.5" width="879" height="279" rx="16" fill="none" stroke="#e6e3da"/>
 </svg>

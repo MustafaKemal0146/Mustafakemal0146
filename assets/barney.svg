@@ -1,135 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-label="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1026"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#e8c547" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#e8c547" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="me" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5b7cff"/><stop offset="1" stop-color="#4361ee"/>
-    </linearGradient>
-    <clipPath id="card"><rect width="880" height="320" rx="14"/></clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="Barney: yazma biçimini öğrenen ve senin gibi cevap yazan yerel yazışma asistanı">
   <style>
     .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
-    .tag { fill: #121a3a; stroke: #2a3670; }
-    .panel { fill: #0e1430; stroke: #1f2a5c; }
-    .lbl { fill: #8a94c2; font-size: 11px; }
-    .track { fill: #1a2350; }
-    .bar { fill: #e8c547; transform-box: fill-box; transform-origin: left center; animation: grow 9s cubic-bezier(.2,.7,.2,1) infinite; }
-    .b2 { animation-delay: .25s; } .b3 { animation-delay: .5s; } .b4 { animation-delay: .75s; }
-    @keyframes grow { 0% { transform: scaleX(0); } 14%,94% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
-    .wire { stroke: #2a3670; stroke-width: 1.4; fill: none; }
-    .flow { stroke: #f5dc7a; stroke-width: 2; stroke-linecap: round; fill: none; stroke-dasharray: 5 60; animation: flow 1.8s linear infinite; }
-    @keyframes flow { from { stroke-dashoffset: 65; } to { stroke-dashoffset: 0; } }
-    .them { fill: #1a2248; }
-    .bub { transform-box: fill-box; transform-origin: right bottom; animation: pop 9s cubic-bezier(.2,.8,.2,1) infinite; }
-    .m1 { animation-name: pop1; } .m2 { animation-name: pop2; } .m3 { animation-name: pop3; }
-    @keyframes pop1 { 0%,25% { opacity: 0; transform: translateY(8px) scale(.9); } 29%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
-    @keyframes pop2 { 0%,41% { opacity: 0; transform: translateY(8px) scale(.9); } 45%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
-    @keyframes pop3 { 0%,57% { opacity: 0; transform: translateY(8px) scale(.9); } 61%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; transform: none; } }
-    .in { animation: inb 9s ease-out infinite; }
-    @keyframes inb { 0%,3% { opacity: 0; transform: translateY(6px); } 7%,93% { opacity: 1; transform: none; } 98%,100% { opacity: 0; } }
-    .typing { opacity: 0; animation: typ 9s steps(1) infinite; }
-    @keyframes typ { 0%,11% { opacity: 0; } 12%,25% { opacity: 1; } 26%,100% { opacity: 0; } }
-    .dot { fill: #c7d0f5; animation: dot 1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .d2 { animation-delay: .15s; } .d3 { animation-delay: .3s; }
-    @keyframes dot { 0%,100% { transform: translateY(0); opacity: .45; } 50% { transform: translateY(-3px); opacity: 1; } }
-    .halo { animation: halo 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes halo { 0%,100% { transform: scale(.9); opacity: .7; } 50% { transform: scale(1.12); opacity: 1; } }
-    .ok { animation: ok 9s steps(1) infinite; }
-    @keyframes ok { 0%,66% { opacity: 0; } 67%,93% { opacity: 1; } 94%,100% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .typing { display: none; } }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .tag { fill: #f8f5fc; stroke: #cdbfe3; }
+    .bub { animation: bub 6s ease-in-out infinite; }
+    @keyframes bub { 0%, 100% { fill: #e9defa; } 8% { fill: #f6e9a8; } 20% { fill: #e9defa; } }
+    .bar { transform-box: fill-box; transform-origin: left center; animation: bar 6s ease-in-out infinite; }
+    @keyframes bar { 0% { transform: scaleX(.3); } 25%, 100% { transform: scaleX(1); } }
   </style>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f2fb"/><stop offset="1" stop-color="#e6def2"/></linearGradient>
+    <pattern id="ruled" width="880" height="30" patternUnits="userSpaceOnUse"><line x1="0" y1="29.5" x2="880" y2="29.5" stroke="#dbd0ec" stroke-width="1"/></pattern>
+    <clipPath id="card"><rect width="880" height="300" rx="16"/></clipPath>
+  </defs>
   <g clip-path="url(#card)">
-    <rect width="880" height="320" fill="url(#bg)"/>
-    <circle class="halo" cx="500" cy="160" r="150" fill="url(#glow)"/>
-  </g>
-  <rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="none" stroke="#1f2a5c"/>
+    <rect width="880" height="300" fill="url(#paper)"/>
+    <rect width="880" height="300" fill="url(#ruled)" opacity=".5"/>
+    <circle cx="120" cy="20" r="180" fill="#e9e0f5" opacity=".6"/>
+    <circle cx="820" cy="300" r="170" fill="#ddd2ee" opacity=".55"/>
 
-  <!-- sol: tanım -->
-  <text x="32" y="44" class="mono" font-size="12" fill="#c9a93a">04 · GO + REACT + CHROME UZANTISI</text>
-  <text x="32" y="80" class="sans" font-size="28" font-weight="800" fill="#f3f5ff">Barney<tspan fill="#e8c547">.</tspan></text>
-  <text x="140" y="80" class="sans" font-size="15" font-style="italic" fill="#6f7bb0">Senin gibi yazar.</text>
-  <text class="sans" font-size="14" fill="#aab3da">
-    <tspan x="32" y="110">WhatsApp Web'de yazma biçimini öğrenir: kaç mesaj</tspan>
-    <tspan x="32" y="130">attığın, uzunluk, harf, noktalama, emoji, cevap hızı.</tspan>
-    <tspan x="32" y="150">Model yalnızca ne söyleneceğini yazar; nasıl yazılacağını</tspan>
-    <tspan x="32" y="170">stil kartı belirler ve kod denetler.</tspan>
-  </text>
+    <text x="36" y="44" class="mono" font-size="11" fill="#7d63a8" letter-spacing="1.4">04 · YAZIŞMA ASİSTANI · GO + CHROME UZANTISI</text>
+    <rect x="34" y="78" width="150" height="16" rx="3" fill="#f2c230" opacity=".55"/><text x="34" y="96" class="serif" font-size="46" font-style="italic" fill="#5a3791" letter-spacing="-.5">Barney</text>
+    <line x1="36" y1="112" x2="196" y2="112" stroke="#bda9dc" stroke-width="1.4"/>
+    <circle cx="204" cy="112" r="2.4" fill="#5a3791"/>
+    <text x="36" y="140" class="sans" font-size="13.5" fill="#51475f">Yazma biçimini öğrenen yerel yazışma asistanı</text>
+    <text class="sans" font-size="12.5" fill="#655a75">
+      <tspan x="36" y="166">WhatsApp Web’de nasıl yazdığını öğrenir. Model yalnızca ne</tspan>
+      <tspan x="36" y="184">söyleneceğini yazar; nasıl yazılacağını stil kartı belirler.</tspan>
+    </text>
+    <text x="36" y="210" class="serif" font-size="13" font-style="italic" fill="#5a3791">“Senin gibi yazar.”</text>
+    <g class="mono" font-size="10" fill="#5d4f7a">
+      <rect class="tag" x="36" y="226" width="40" height="22" rx="4"/><text x="56.0" y="241" text-anchor="middle">Go</text>
+      <rect class="tag" x="82" y="226" width="52" height="22" rx="4"/><text x="108.0" y="241" text-anchor="middle">React</text>
+      <rect class="tag" x="140" y="226" width="82" height="22" rx="4"/><text x="181.0" y="241" text-anchor="middle">Chrome MV3</text>
+      <rect class="tag" x="228" y="226" width="76" height="22" rx="4"/><text x="266.0" y="241" text-anchor="middle">127.0.0.1</text>
+      <rect class="tag" x="310" y="226" width="74" height="22" rx="4"/><text x="347.0" y="241" text-anchor="middle">tek ikili</text>
+    </g>
+    <rect x="36" y="258" width="164" height="30" rx="15" fill="#5a3791"/>
+    <text x="118.0" y="278" text-anchor="middle" class="sans" font-size="12" font-weight="700" fill="#f7f2fd">Projeyi incele →</text>
+    <text x="212" y="278" class="sans" font-size="10.5" fill="#9485ac">senin onayınla gönderir</text>
 
-  <circle cx="38" cy="196" r="4.5" fill="#e8c547"/>
-  <text x="50" y="200" class="sans" font-size="12" fill="#aab3da">Art arda kısa mesajlar <tspan fill="#66709e">· tek uzun cevap yerine senin ritmin</tspan></text>
-  <circle cx="38" cy="216" r="4.5" fill="#5b7cff"/>
-  <text x="50" y="220" class="sans" font-size="12" fill="#aab3da">Korumalı otomatik gönderim <tspan fill="#66709e">· onay, sessiz saat, hassas konu</tspan></text>
-  <circle cx="38" cy="236" r="4.5" fill="#34d399"/>
-  <text x="50" y="240" class="sans" font-size="12" fill="#aab3da">Tamamen yerel <tspan fill="#66709e">· kişiler ve geçmiş bu bilgisayarda</tspan></text>
+    <g transform="rotate(2 622 152)">
+      <rect x="474" y="42" width="304" height="234" rx="7" fill="#8f7ab5" opacity=".3"/>
+      <rect x="468" y="34" width="304" height="234" rx="7" fill="#fffeff" stroke="#d9cfe9"/>
+      <text x="488" y="56" class="mono" font-size="8.5" fill="#8a72b3" letter-spacing=".8">WHATSAPP WEB</text>
+      <text x="752" y="56" text-anchor="end" class="mono" font-size="8.5" fill="#b3a5cf">TASLAK</text>
+      <line x1="488" y1="64" x2="752" y2="64" stroke="#ebe4f5"/>
 
-  <g class="mono" font-size="11" fill="#f0d877">
-    <rect class="tag" x="32"  y="262" width="36"  height="22" rx="6"/><text x="50"  y="277" text-anchor="middle">Go</text>
-    <rect class="tag" x="74"  y="262" width="56"  height="22" rx="6"/><text x="102" y="277" text-anchor="middle">React</text>
-    <rect class="tag" x="136" y="262" width="92"  height="22" rx="6"/><text x="182" y="277" text-anchor="middle">Chrome MV3</text>
-    <rect class="tag" x="234" y="262" width="86"  height="22" rx="6"/><text x="277" y="277" text-anchor="middle">127.0.0.1</text>
-    <rect class="tag" x="326" y="262" width="80"  height="22" rx="6"/><text x="366" y="277" text-anchor="middle">tek ikili</text>
-  </g>
+      <rect x="488" y="74" width="132" height="24" rx="11" fill="#f1eef6"/>
+      <text x="500" y="90" class="sans" font-size="9.5" fill="#4a4358">yarın geliyor musun?</text>
 
-  <!-- orta: stil kartı -->
-  <g transform="translate(442,84)">
-    <rect class="panel" width="150" height="152" rx="12"/>
-    <text x="14" y="24" class="mono" font-size="11" fill="#e8c547">STİL KARTI</text>
-    <g class="sans">
-      <text class="lbl" x="14" y="46">art arda mesaj</text>
-      <rect class="track" x="14" y="52" width="122" height="6" rx="3"/><rect class="bar"    x="14" y="52" width="96"  height="6" rx="3"/>
-      <text class="lbl" x="14" y="74">küçük harf</text>
-      <rect class="track" x="14" y="80" width="122" height="6" rx="3"/><rect class="bar b2" x="14" y="80" width="112" height="6" rx="3"/>
-      <text class="lbl" x="14" y="102">noktalama</text>
-      <rect class="track" x="14" y="108" width="122" height="6" rx="3"/><rect class="bar b3" x="14" y="108" width="30"  height="6" rx="3"/>
-      <text class="lbl" x="14" y="130">emoji</text>
-      <rect class="track" x="14" y="136" width="122" height="6" rx="3"/><rect class="bar b4" x="14" y="136" width="54"  height="6" rx="3"/>
+      <text x="752" y="113" text-anchor="end" class="mono" font-size="6.8" fill="#8a72b3" letter-spacing=".6">BARNEY TASLAĞI · SENİN RİTMİN</text>
+      <g class="sans" font-size="9.5" fill="#35264f">
+        <rect class="bub" x="680" y="119" width="72" height="22" rx="11" fill="#e9defa" stroke="#cbb8ea"/><text x="692" y="134">gelirim ya</text>
+        <rect class="bub" style="animation-delay:.5s" x="636" y="145" width="116" height="22" rx="11" fill="#e9defa" stroke="#cbb8ea"/><text x="648" y="160">biraz geç kalabilirim</text>
+        <rect class="bub" style="animation-delay:1s" x="666" y="171" width="86" height="22" rx="11" fill="#e9defa" stroke="#cbb8ea"/><text x="678" y="186">haber veririm</text>
+      </g>
+
+      <rect x="488" y="188" width="146" height="64" rx="6" fill="#241a3a" stroke="#5a3791"/>
+      <text x="498" y="202" class="mono" font-size="8" fill="#f2c230" letter-spacing=".8">STİL KARTI</text>
+      <text x="498" y="216" class="sans" font-size="7" fill="#b9a9d9">küçük harf</text><rect x="548" y="211" width="74" height="4" rx="2" fill="#3a2d57"/><rect class="bar" style="animation-delay:0.0s" x="548" y="211" width="68" height="4" rx="2" fill="#f2c230"/>
+      <text x="498" y="227" class="sans" font-size="7" fill="#b9a9d9">kısa mesaj</text><rect x="548" y="222" width="74" height="4" rx="2" fill="#3a2d57"/><rect class="bar" style="animation-delay:0.3s" x="548" y="222" width="58" height="4" rx="2" fill="#f2c230"/>
+      <text x="498" y="238" class="sans" font-size="7" fill="#b9a9d9">noktalama</text><rect x="548" y="233" width="74" height="4" rx="2" fill="#3a2d57"/><rect class="bar" style="animation-delay:0.6s" x="548" y="233" width="16" height="4" rx="2" fill="#f2c230"/>
+      <text x="498" y="249" class="sans" font-size="7" fill="#b9a9d9">emoji</text><rect x="548" y="244" width="74" height="4" rx="2" fill="#3a2d57"/><rect class="bar" style="animation-delay:0.9s" x="548" y="244" width="33" height="4" rx="2" fill="#f2c230"/>
+      
+      <g transform="rotate(8 712 232)">
+        <circle cx="712" cy="232" r="38" fill="#5a3791" opacity=".14"/>
+        <circle cx="712" cy="232" r="34" fill="#5a3791"/>
+        <circle cx="712" cy="232" r="27" fill="none" stroke="#e6d9fa" stroke-width="1.2" stroke-dasharray="2 2.5"/>
+        <text x="712" y="227" text-anchor="middle" class="sans" font-size="7.5" font-weight="800" letter-spacing="1.2" fill="#f7f2fd">ONAYINLA</text>
+        <text x="712" y="239" text-anchor="middle" class="sans" font-size="7.5" font-weight="800" letter-spacing="1.2" fill="#f7f2fd">GÖNDERİR</text>
+        <text x="712" y="249" text-anchor="middle" class="mono" font-size="5.6" fill="#cdbcec">✓ SESSİZ SAAT</text>
+      </g>
     </g>
   </g>
-  <path class="wire" d="M592 160 L622 160"/>
-  <path class="flow" d="M592 160 L622 160"/>
-  <path d="M618 155 L625 160 L618 165" fill="none" stroke="#e8c547" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- sağ: sohbet -->
-  <g transform="translate(632,40)">
-    <rect class="panel" width="216" height="240" rx="14"/>
-    <circle cx="22" cy="22" r="9" fill="#1f2a5c"/><rect x="38" y="17" width="70" height="10" rx="5" fill="#1f2a5c"/>
-    <line x1="0" y1="42" x2="216" y2="42" stroke="#1f2a5c"/>
-
-    <g class="in">
-      <rect class="them" x="12" y="54" width="150" height="30" rx="12"/>
-      <text x="24" y="74" class="sans" font-size="12.5" fill="#d7dcf5">akşam geliyor musun</text>
-    </g>
-
-    <g class="typing">
-      <rect x="150" y="96" width="54" height="26" rx="13" fill="#27357a"/>
-      <circle class="dot"    cx="166" cy="109" r="3"/>
-      <circle class="dot d2" cx="177" cy="109" r="3"/>
-      <circle class="dot d3" cx="188" cy="109" r="3"/>
-    </g>
-
-    <g class="bub m1">
-      <rect x="136" y="96" width="68" height="28" rx="12" fill="url(#me)"/>
-      <text x="170" y="115" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">gelirim</text>
-    </g>
-    <g class="bub m2">
-      <rect x="82" y="130" width="122" height="28" rx="12" fill="url(#me)"/>
-      <text x="143" y="149" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">bi işim var önce</text>
-    </g>
-    <g class="bub m3">
-      <rect x="92" y="164" width="112" height="28" rx="12" fill="url(#me)"/>
-      <text x="148" y="183" text-anchor="middle" class="sans" font-size="12.5" fill="#fff">8 gibi oradayım</text>
-    </g>
-
-    <g class="ok mono" font-size="10.5">
-      <rect x="62" y="206" width="142" height="22" rx="11" fill="#0b2a22" stroke="#1d6b55"/>
-      <text x="133" y="221" text-anchor="middle" fill="#6ee7b7">✓ stil denetimi geçti</text>
-    </g>
-  </g>
+  <rect x="0.5" y="0.5" width="879" height="299" rx="16" fill="none" stroke="#d2c5e6"/>
 </svg>

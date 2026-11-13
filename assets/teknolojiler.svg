@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="56" viewBox="0 0 880 56" role="img" aria-label="Kullandığım teknolojiler: Python, TypeScript, Go, Rust, React, Tauri, Node.js, PostgreSQL, Docker, Linux">
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="55" rx="14" fill="#faf9f5" stroke="#e6e3da"/>
+  <rect x="24.0" y="13" width="74.4" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="38.0" cy="28" r="2.6" fill="#d97757"/><text x="47.0" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Python</text>
+  <rect x="108.2" y="13" width="104.0" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="122.2" cy="28" r="2.6" fill="#d97757"/><text x="131.2" y="32.5" class="mono" font-size="12" fill="#3d3d3a">TypeScript</text>
+  <rect x="222.0" y="13" width="44.8" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="236.0" cy="28" r="2.6" fill="#d97757"/><text x="245.0" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Go</text>
+  <rect x="276.5" y="13" width="59.6" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="290.5" cy="28" r="2.6" fill="#d97757"/><text x="299.5" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Rust</text>
+  <rect x="345.9" y="13" width="67.0" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="359.9" cy="28" r="2.6" fill="#d97757"/><text x="368.9" y="32.5" class="mono" font-size="12" fill="#3d3d3a">React</text>
+  <rect x="422.7" y="13" width="67.0" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="436.7" cy="28" r="2.6" fill="#d97757"/><text x="445.7" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Tauri</text>
+  <rect x="499.5" y="13" width="81.8" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="513.5" cy="28" r="2.6" fill="#d97757"/><text x="522.5" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Node.js</text>
+  <rect x="591.0" y="13" width="104.0" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="605.0" cy="28" r="2.6" fill="#d97757"/><text x="614.0" y="32.5" class="mono" font-size="12" fill="#3d3d3a">PostgreSQL</text>
+  <rect x="704.8" y="13" width="74.4" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="718.8" cy="28" r="2.6" fill="#d97757"/><text x="727.8" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Docker</text>
+  <rect x="789.0" y="13" width="67.0" height="30" rx="15" fill="#ffffff" stroke="#e6e3da"/><circle cx="803.0" cy="28" r="2.6" fill="#d97757"/><text x="812.0" y="32.5" class="mono" font-size="12" fill="#3d3d3a">Linux</text>
+  
+</svg>

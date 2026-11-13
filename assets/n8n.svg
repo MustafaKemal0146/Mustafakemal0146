@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="140" viewBox="0 0 284 140" role="img" aria-label="n8n-automations">
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="0.5" y="0.5" width="283" height="139" rx="14" fill="#fdf1ee" stroke="#f3d9d1"/>
+  <text x="20" y="32" class="mono" font-size="9.5" fill="#b5452c" letter-spacing="1.2" opacity=".85">OTOMASYON</text>
+  <text x="20" y="64" class="serif" font-size="23" font-style="italic" fill="#b5452c">n8n-automations</text>
+  <text class="sans" font-size="11.5" fill="#4d4d49"><tspan x="20" y="87">İş, yapay zekâ ve verimlilik</tspan><tspan x="20" y="103">için hazır n8n iş akışları.</tspan></text>
+  <rect x="20" y="113" width="39" height="18" rx="4" fill="#ffffff" fill-opacity=".7" stroke="#f3d9d1"/>
+  <text x="39" y="125.5" text-anchor="middle" class="mono" font-size="9" fill="#55554f">n8n</text>
+  <text x="264" y="126" text-anchor="end" class="sans" font-size="13" fill="#b5452c">→</text>
+</svg>

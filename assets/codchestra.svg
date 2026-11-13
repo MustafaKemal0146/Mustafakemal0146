@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="140" viewBox="0 0 284 140" role="img" aria-label="codchestra">
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'DejaVu Serif', 'Times New Roman', serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="0.5" y="0.5" width="283" height="139" rx="14" fill="#eef3f8" stroke="#d5e0ec"/>
+  <text x="20" y="32" class="mono" font-size="9.5" fill="#2f5b8c" letter-spacing="1.2" opacity=".85">ORKESTRATÖR</text>
+  <text x="20" y="64" class="serif" font-size="23" font-style="italic" fill="#2f5b8c">codchestra</text>
+  <text class="sans" font-size="11.5" fill="#4d4d49"><tspan x="20" y="87">Bir görev listesini bitene kadar</tspan><tspan x="20" y="103">Codex döngüsünde çalıştırır.</tspan></text>
+  <rect x="20" y="113" width="82" height="18" rx="4" fill="#ffffff" fill-opacity=".7" stroke="#d5e0ec"/>
+  <text x="61" y="125.5" text-anchor="middle" class="mono" font-size="9" fill="#55554f">TypeScript</text>
+  <text x="264" y="126" text-anchor="end" class="sans" font-size="13" fill="#2f5b8c">→</text>
+</svg>
